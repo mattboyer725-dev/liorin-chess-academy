@@ -17,7 +17,7 @@ Sign in, post a date and format, and other coaches reply on the same page. Stude
 - Teaching engine with validated legal moves
 - Guest play stays on this device; signed-in Sync copies to the LIORIN account
 - Youth-safe by default
-- Member \$4.44/month. School / Club \$99.99/month (verification required; school charges wait on EIN / W-9)
+- Member $4.44/month. School / Club $99.99/month (verification required; school charges wait on EIN / W-9)
 
 ## Product pages
 
