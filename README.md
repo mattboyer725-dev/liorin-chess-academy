@@ -1,35 +1,24 @@
 # LIORIN Chess Academy
 
-School-safe chess teaching and play. Recognition only — standings, badges, certificates, and archive seals.
+Teach on the board. Hold in the cold engine. Watch the 2700 Club. Keep every game.
 
-**Live platform:** https://liorin-platform.vercel.app
+Live: [liorin-platform.vercel.app](https://liorin-platform.vercel.app)
 
-## For coaches
+## Product
 
-Coaches set up events with other clubs on the tournament desk:
+- **Play** — legal-move teaching board. Cold mode does not yield. Teaching mode names every idea.
+- **Learn** — short positions, one idea each.
+- **2700 Club** — live FIDE elite ladder (Lichess FIDE API).
+- **Recaps** — love letters and PGN archive of every finished academy game.
+- **Studio** — KEEPER, the project manager. Update all refreshes ratings, hunt, and missing recaps.
+- **Conquest** — seven agents enlist Liorin only on boards that allow engines.
 
-https://liorin-platform.vercel.app/#/tournaments
+## Charter
 
-Sign in, post a date and format, and other coaches reply on the same page. Students do not send private messages there. The board stays empty until a real coach posts.
+Engines versus bots only. No human-pool assistance. Tokens never stored in the campaign database.
 
-## For schools and clubs
+## Stack
 
-- Teaching engine with validated legal moves
-- Guest play stays on this device; signed-in Sync copies to the LIORIN account
-- Youth-safe by default
-- Member $4.44/month. School / Club $99.99/month (verification required; school charges wait on EIN / W-9)
+TanStack Start, React 19, Tailwind v4, chess.js, Neon/PGLite.
 
-## Product pages
-
-- Home: https://liorin-platform.vercel.app
-- Learn: https://liorin-platform.vercel.app/#/learn
-- Play: https://liorin-platform.vercel.app/#/play
-- Pricing: https://liorin-platform.vercel.app/#/pricing
-- About: https://liorin-platform.vercel.app/#/about
-- Clubs: https://liorin-platform.vercel.app/#/clubs
-
-## Operator
-
-Matt Boyer, New York sole proprietor d/b/a LIORIN Chess Academy (Monticello, NY). An LLC is in formation. Counsel: Nana Boyer. Contact: mattboyer725@gmail.com
-
-Copyright (c) 2026 Matt Boyer. All rights reserved. This public page describes the product. Application source is not published here.
+Fair-play, school-safe, always pointing home.
