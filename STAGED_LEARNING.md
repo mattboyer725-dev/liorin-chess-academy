@@ -50,6 +50,11 @@ Leave master/production untouched. Close the staged PR to discard the experiment
 If later merged, unset the preview feature flag to hide it, or revert this commit.
 No backend data migration or shared learner rollback is needed.
 
+The staged branch disables its own automatic Vercel Git deployment in
+`vercel.json`. Other branches retain their previous behavior. Deploy this preview
+manually from the migration-free prebuilt output, with an empty `DATABASE_URL`
+runtime override, so no production database is connected.
+
 ## Validation in this sandbox
 
 - Six new policy tests pass; TypeScript and the targeted ESLint checks pass.
