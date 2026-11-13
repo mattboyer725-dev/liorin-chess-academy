@@ -2,6 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { AcademyCta } from "@/components/academy-cta";
 import { LESSONS } from "@/lib/chess/lessons";
 import { Button } from "@/components/ui/button";
+import { AdaptiveLessons } from "@/components/adaptive-lessons";
 
 export const Route = createFileRoute("/learn")({ component: LearnPage });
 
@@ -17,6 +18,7 @@ function LearnPage() {
           elite strength.
         </p>
       </header>
+      {import.meta.env.VITE_ADAPTIVE_LEARNING === "true" && <AdaptiveLessons />}
       <ul className="grid gap-3 md:grid-cols-2">
         {LESSONS.map((lesson) => (
           <li key={lesson.id} className="flex flex-col rounded-lg border border-border bg-surface p-5">
